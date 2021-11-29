@@ -210,6 +210,8 @@ Resources:
   #############
   ###  IAM  ###
   #############
+      PublicAccessBlockConfiguration:
+        BlockPublicPolicy: True
 
   User:
     Type: AWS::IAM::User
